@@ -20,6 +20,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!-- 新增的登录Activity -->
+        <activity android:name=".LoginActivity"
+            android:label="登录页面">
+            <!-- 允许从其他Activity启动 -->
+        </activity>
     </application>
 
 </manifest>
